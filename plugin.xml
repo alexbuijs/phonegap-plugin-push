@@ -141,6 +141,7 @@
     <framework src="AddressBook.framework"/>
     <framework src="libsqlite3.tbd"/>
     <framework src="libz.tbd"/>
+    <hook type="after_plugin_install" src="src/ios/hooks/install_entitlements.js"/>
   </platform>
   <platform name="windows">
     <hook type="after_plugin_install" src="hooks/windows/setToastCapable.js"/>
